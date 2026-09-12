@@ -1,0 +1,19 @@
+venv/
+__pycache__/
+*.pyc
+
+runs/
+
+data/raw/
+
+data/images/
+data/labels/
+# YOLO training artifacts
+results/pothole_model-2/*
+!results/pothole_model-2/weights/
+!results/pothole_model-2/weights/best.pt
+
+# YOLO training artifacts
+results/pothole_model-2/*
+!results/pothole_model-2/weights/
+!results/pothole_model-2/weights/best.pt

@@ -1,0 +1,20 @@
+========== POTHOLE DETECTION REPORT ==========
+
+Total potholes detected: 2
+
+Pothole 1
+Confidence : 0.89
+Severity   : Moderate
+Area       : 3.70%
+
+Pothole 2
+Confidence : 0.70
+Severity   : Moderate
+Area       : 2.66%
+
+---------- Severity Summary ----------
+Low       : 0
+Moderate  : 2
+High      : 0
+
+==============================================
