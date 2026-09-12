@@ -18,6 +18,7 @@ The system detects potholes, counts the detected potholes, estimates their sever
 - Automated project validation
 - Command-line execution
 - Annotated output generation
+- Automated pothole detection report generation
 
 ## 3. Technologies Used
 
@@ -52,4 +53,5 @@ Pothole-Detection-Computer-Vision/
     ├── detect.py
     ├── evaluate.py
     ├── severity.py
+    ├── report.py
     └── test_project.py
