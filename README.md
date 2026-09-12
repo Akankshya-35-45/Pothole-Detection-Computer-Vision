@@ -170,6 +170,10 @@ For the tested image `img-101.jpg`, the model detected two potholes:
 
 The detection output includes bounding boxes around the detected potholes along with their confidence scores.
 
+### Detection Output
+
+![Pothole Detection Output](results/final_img-101.jpg)
+
 ## 12. Severity Analysis
 
 The system provides three severity levels:
