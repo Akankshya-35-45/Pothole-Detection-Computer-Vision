@@ -102,6 +102,7 @@ Dataset split used in this project:
 - Training: 870 images
 - Validation: 248 images
 - Testing: 125 images
+> Note: The dataset is not included in the GitHub repository because of its size. The `data/` directory is created locally during dataset preparation.
 
 ## 7. Model Training
 
