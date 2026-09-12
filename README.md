@@ -150,7 +150,7 @@ The evaluation includes:
 
 ## 10. Model Performance
 
-The validation results obtained from the trained model were:
+The following results were obtained by evaluating the trained model on the test dataset containing 125 images.
 
 | Metric | Score |
 |---|---:|
@@ -159,20 +159,31 @@ The validation results obtained from the trained model were:
 | mAP@50 | 66.13% |
 | mAP@50-95 | 35.01% |
 
+### Evaluation Methodology
+
+The trained YOLO model was evaluated on the test split using standard object detection metrics:
+
+- **Precision:** Measures the proportion of predicted potholes that were correct.
+- **Recall:** Measures the proportion of actual potholes detected by the model.
+- **mAP@50:** Mean Average Precision at an IoU threshold of 0.50.
+- **mAP@50-95:** Mean Average Precision averaged across IoU thresholds from 0.50 to 0.95.
+
 ## 11. Detection Example
 
-For the tested image `img-101.jpg`, the model detected two potholes:
+For the tested image `img-101.jpg`, the model detected two potholes.
 
-| Detection | Confidence | Severity |
-|---|---:|---|
-| Pothole 1 | 0.89 | Moderate |
-| Pothole 2 | 0.70 | Moderate |
+| Detection | Confidence | Severity | Area |
+|---|---:|---|---:|
+| Pothole 1 | 0.89 | Moderate | 3.70% |
+| Pothole 2 | 0.70 | Moderate | 2.66% |
 
-The detection output includes bounding boxes around the detected potholes along with their confidence scores.
+The detection output contains bounding boxes around the detected potholes along with their confidence scores.
 
 ### Detection Output
 
 ![Pothole Detection Output](results/final_img-101.jpg)
+
+*Figure 1: YOLO-based pothole detection output showing the detected potholes and confidence scores.*
 
 ## 12. Severity Analysis
 
